@@ -37,11 +37,14 @@ ostream& operator<<(ostream &dout,Time T)
 int main()
 {
     Time t1,t2,t3;
+
     cout<<"Enter Time : ";
-    cin>>t1;//operator<<(cin&,t1&)
+    cin>>t1;//operator>>(cin&,t1&)
+
     t1.Normalize();
     //t1.showTime();
-    cout<<t1;//operator++(otream&,t1)
+
+    cout<<t1;//operator<<(otream&,t1)
     //t2.Normalize();
     //t2.showTime();
     return 0;
